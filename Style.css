@@ -58,6 +58,19 @@ border-color: bisque;
   top: 26%;
 }
 
+#ZyklonButton 
+{
+        color: #e6d3a3;
+        border: 2px solid #e6d3a3;
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        position: absolute;
+        left: 24%;
+        top: 52%;
+}
+
 
 header{
   position: fixed;
@@ -76,6 +89,7 @@ header{
   background-color: #33333396;
   border: blue;
 }
+
 
 /* Navbar links */
 #navbar a {
