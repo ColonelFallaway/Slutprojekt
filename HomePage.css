@@ -1,0 +1,90 @@
+body {
+  background-image: url('digital-art-blue-leaves-pattern-wallpaper-preview.jpg');
+  background-size: cover;
+}
+.block1{
+background-color: rgba(0, 12, 27, 0.758);
+display: inline-block;
+border: none;
+margin-top: 4%;
+margin-left: 12%;
+text-align: center;
+width: 70%;
+padding-top: 60%;
+border-radius: 7%;
+position: absolute;
+box-sizing: border-box;
+border-style: groove;
+border-color: bisque;
+}
+
+.rounded-box1 {
+  width: 180px;
+  height: 100px;
+  background-color: rgba(0, 12, 27, 0.758);
+  border: 3px solid #e3cda6;
+  border-radius: 16px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  left: 200px;
+  top: 200px;
+}
+.rounded-box2 {
+  width: 180px;
+  height: 100px;
+  background-color: rgba(0, 12, 27, 0.758);
+  border: 3px solid #e3cda6;
+  border-radius: 16px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  left: 200px;
+  top: 400px;
+}
+.rounded-box3 {
+  width: 180px;
+  height: 100px;
+  background-color: rgba(0, 12, 27, 0.758);
+  border: 3px solid #e3cda6;
+  border-radius: 16px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  left: 200px;
+  top: 600px;
+}
+
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s, background 1s;
+  z-index: 2;
+  right: 2px;
+}
+#navbar { 
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #333;
+  border: blue;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
