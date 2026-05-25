@@ -64,6 +64,18 @@ h1{
     box-shadow:0 0 20px rgba(255, 183, 0, 0.6);
 }
 
+
+.Explain-box1{
+    color:#e6d3a3;
+    font-size:25px;
+    
+    width: 45%;
+    margin-left: 40%;
+    margin-bottom:20px;
+    text-align: center;
+    position:absolute;
+}
+
 .rounded-box1 img,
 .rounded-box2 img{
 
